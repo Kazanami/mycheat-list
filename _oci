@@ -1,0 +1,25 @@
+---
+syntax: bash
+tags: [ "personal", "docker" ]
+---
+# Require Bash alias added to hogehoge_oci
+  
+  baseDIR=`${HOME}/git_projects/work`
+  ```
+  alias hogehoge_oci="container_select <directory>/<container_name>"
+  ```
+
+# create and start container
+  ```
+  hogehoge_oci start
+  ```
+# stop and remove container
+  ```
+  hogehoge_oci stop
+  ```
+
+# restart container
+  ```
+  hogehoge_oci restart
+  ```
+
